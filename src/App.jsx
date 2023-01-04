@@ -1,5 +1,12 @@
 import React from "react";
-import { Navbar, Hero, Hooded, Journals, Locations } from "./components";
+import {
+  Navbar,
+  Hero,
+  Hooded,
+  Journals,
+  Locations,
+  Footer,
+} from "./components";
 
 const App = () => {
   return (
@@ -20,6 +27,9 @@ const App = () => {
       </div>
       <div className="bg-black">
         <Locations />
+      </div>
+      <div className="bg-black">
+        <Footer />
       </div>
     </div>
   );

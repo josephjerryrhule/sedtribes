@@ -90,3 +90,18 @@ export const navLinks = [
     title: "Shop",
   },
 ];
+
+export const footerLinks = [
+  {
+    id: "subscribe",
+    title: "Subscribe",
+  },
+  {
+    id: "threadedtribes@gmail.com",
+    title: "threadedtribes@gmail.com",
+  },
+  {
+    id: "copyright",
+    title: "Copyright 2022",
+  },
+];
