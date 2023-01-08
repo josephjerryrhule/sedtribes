@@ -15,7 +15,7 @@ const Footer = () => {
           <p className="font-lato text-white font-normal text-[16px] leading-[26px]">
             Get amazing deals to shop our collections via email
           </p>
-          <form className="flex lg:flex-row flex-col items-center justify-between mt-5">
+          <form className="flex lg:flex-row flex-col lg:items-center lg:justify-between mt-5">
             <input
               type="email"
               name=""
