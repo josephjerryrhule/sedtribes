@@ -18,6 +18,7 @@ module.exports = {
         hooded: "url('/src/assets/hooded.png')",
         skin: "url('/src/assets/skin.png')",
         garden: "url('/src/assets/garden.png')",
+        storyhero: "url('/src/assets/ourstoryhero.png)",
       },
     },
     screens: {
