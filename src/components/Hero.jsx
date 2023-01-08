@@ -10,7 +10,7 @@ const flickityOptions = {
 const Hero = () => {
   return (
     <div>
-      <div className="lg:grid-cols-3 gap-0 sm:grid hidden">
+      <div className="lg:grid-cols-3 gap-0 md:grid hidden">
         <div className="bg-smiling bg-no-repeat bg-cover flex-col items-end h-[1024px]">
           <div className="bg-overlay flex items-end h-[100%]">
             <h3 className="font-abril font-normal text-[34px] leading-[46px] text-white w-[80%] mx-[auto] pb-9">
