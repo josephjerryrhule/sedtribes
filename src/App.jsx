@@ -10,9 +10,9 @@ import {
 
 const App = () => {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <div className="w-[80%] mx-auto">
-        <div className="fixed w-[80%]">
+        <div className="fixed w-[80%] z-20">
           <Navbar />
         </div>
       </div>

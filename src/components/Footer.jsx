@@ -5,17 +5,17 @@ import { footerLinks } from "../constants";
 const Footer = () => {
   return (
     <div className="w-[80%] mx-auto pb-5">
-      <div className="flex items-center justify-between pt-24">
+      <div className="flex lg:flex-row flex-col items-center justify-between pt-24">
         <div className="max-w-[400px]">
           <h3 className="font-abril font-normal text-white text-[48px] leading-[56px]">
             Get the exclusives Save big
           </h3>
         </div>
-        <div className="max-w-[500px]">
+        <div className="lg:max-w-[500px] flex flex-col flex-wrap w-full">
           <p className="font-lato text-white font-normal text-[16px] leading-[26px]">
             Get amazing deals to shop our collections via email
           </p>
-          <form className="flex items-center justify-between mt-5">
+          <form className="flex lg:flex-row flex-col items-center justify-between mt-5">
             <input
               type="email"
               name=""
