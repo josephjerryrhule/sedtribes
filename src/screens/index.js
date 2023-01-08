@@ -1,4 +1,4 @@
-import Home from "./home";
+import Home from "./Home";
 import Blog from "./blog";
 import BlogItem from "./blogitem";
 import JournalItem from "./journalitem";
