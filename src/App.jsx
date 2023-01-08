@@ -1,12 +1,13 @@
 import React from "react";
+import { Navbar, Footer } from "./components";
 import {
-  Navbar,
-  Hero,
-  Hooded,
-  Journals,
-  Locations,
-  Footer,
-} from "./components";
+  Home,
+  Blog,
+  BlogItem,
+  JournalItem,
+  VisualJournals,
+  OurStory,
+} from "./screens";
 
 const App = () => {
   return (
@@ -17,16 +18,7 @@ const App = () => {
         </div>
       </div>
       <div>
-        <Hero />
-      </div>
-      <div className="h-[766px]">
-        <Hooded />
-      </div>
-      <div>
-        <Journals />
-      </div>
-      <div className="bg-black">
-        <Locations />
+        <Home />
       </div>
       <div className="bg-black">
         <Footer />
