@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, Outlet } from "react-router-dom";
+import { logo } from "../assets";
 
 const Navbar = () => {
   return (
@@ -21,7 +22,7 @@ const Navbar = () => {
             </ul>
 
             <Link to="/">
-              <img src="/src/assets/logo.svg" alt="Logo" />
+              <img src={logo} alt="Logo" />
             </Link>
 
             <ul className="list-none sm:flex hidden items-center justify-end flex-1">

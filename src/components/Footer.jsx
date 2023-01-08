@@ -1,6 +1,6 @@
 import React from "react";
-
 import { footerLinks } from "../constants";
+import { footerlogo } from "../assets";
 
 const Footer = () => {
   return (
@@ -34,7 +34,7 @@ const Footer = () => {
       </div>
       <div className="flex items-center justify-between mt-24">
         <div>
-          <img src="/src/assets/footerlogo.svg" alt="" />
+          <img src={footerlogo} alt="Footer Logo" />
         </div>
 
         <div className="flex items-center justify-between list-none">
