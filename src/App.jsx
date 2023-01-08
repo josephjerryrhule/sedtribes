@@ -1,4 +1,6 @@
 import React from "react";
+import { Routes, Route } from "react-router";
+
 import { Navbar, Footer } from "./components";
 import {
   Home,
@@ -12,14 +14,16 @@ import {
 const App = () => {
   return (
     <div className="overflow-x-hidden">
-      <div className="w-[80%] mx-auto">
-        <div className="fixed w-[80%] z-20">
-          <Navbar />
-        </div>
-      </div>
-      <div>
-        <Home />
-      </div>
+      <Routes>
+        <Route path="/" element={<Navbar />}>
+          <Route index element={<Home />} />
+          <Route path="ourstory" element={<OurStory />} />
+          <Route path="blog" element={<Blog />} />
+          <Route path="singleblog" element={<BlogItem />} />
+          <Route path="visualjournals" element={<VisualJournals />} />
+          <Route path="journal" element={<JournalItem />} />
+        </Route>
+      </Routes>
       <div className="bg-black">
         <Footer />
       </div>
