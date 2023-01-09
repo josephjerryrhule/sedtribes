@@ -105,3 +105,38 @@ export const footerLinks = [
     title: "Copyright 2022",
   },
 ];
+
+export const JournalsInfo = [
+  {
+    bg: "bg-expansion",
+    title: "Piper's Day Out",
+  },
+  {
+    bg: "bg-billboard",
+    title: "Billboard Campaign",
+  },
+  {
+    bg: "bg-rock",
+    title: "The Garden",
+  },
+  {
+    bg: "bg-thegarden",
+    title: "The Rocks",
+  },
+  {
+    bg: "bg-bogolan",
+    title: "Dementor Cloaks II",
+  },
+  {
+    bg: "bg-piper",
+    title: "Colors with Nigel",
+  },
+  {
+    bg: "bg-tamed",
+    title: "Untamed Acid",
+  },
+  {
+    bg: "bg-indigo",
+    title: "Indigo",
+  },
+];
