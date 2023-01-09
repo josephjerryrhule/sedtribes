@@ -16,6 +16,8 @@ import nigel9 from "./nigel9.png";
 import nigel10 from "./nigel10.png";
 import nigel11 from "./nigel11.png";
 import circles from "./circles.svg";
+import menu from "./menu.svg";
+import close from "./close.svg";
 
 export {
   logo,
@@ -36,4 +38,6 @@ export {
   nigel8,
   nigel9,
   circles,
+  close,
+  menu,
 };
