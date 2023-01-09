@@ -28,6 +28,7 @@ module.exports = {
         rock: "url('/src/assets/rock.png')",
         tamed: "url('/src/assets/tamed.png')",
         thegarden: "url('/src/assets/thegarden.png')",
+        circles: "url('/src/assets/circles.svg')",
       },
     },
     screens: {

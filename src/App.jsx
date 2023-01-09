@@ -9,6 +9,7 @@ import {
   JournalItem,
   VisualJournals,
   OurStory,
+  Press,
 } from "./screens";
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="ourstory" element={<OurStory />} />
           <Route path="blog" element={<Blog />} />
           <Route path="singleblog" element={<BlogItem />} />
+          <Route path="press" element={<Press />} />
           <Route path="visualjournals" element={<VisualJournals />} />
           <Route path="journal" element={<JournalItem />} />
         </Route>
