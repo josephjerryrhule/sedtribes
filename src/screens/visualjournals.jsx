@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { JournalsInfo } from "../constants";
 
 const VisualJournals = () => {
@@ -123,28 +124,30 @@ const VisualJournals = () => {
       </div>
 
       {/* Journal Items Area */}
-      <div className="grid grid-cols-2 gap-0">
-        {JournalsInfo.map((journal, index) => (
-          <div
-            key={journal.bg}
-            className={`${journal.bg} xs:h-[400px] lg:h-[722px] bg-no-repeat bg-center bg-cover group`}
-          >
-            <div className="bg-overlay flex items-end h-full">
-              <div className="lg:w-[90%] xs:w-[80%] mx-auto pb-5">
-                <h3 className="font-abril font-normal text-white xs:text-[20px] lg:text-[34px] xs:leading[26.98px] lg:leading-[46px] xs:max-w-[152px] lg:max-w-full">
-                  {journal.title}
-                </h3>
-                <button
-                  type="button"
-                  className="text-black rounded-full border w-[200px] h-[60px] mt-3 font-lato font-semibold text-[16px] leading-[19px] bg-white hidden lg:group-hover:block"
-                >
-                  See More
-                </button>
+      <Link to="/journal">
+        <div className="grid grid-cols-2 gap-0">
+          {JournalsInfo.map((journal, index) => (
+            <div
+              key={journal.bg}
+              className={`${journal.bg} xs:h-[400px] lg:h-[722px] bg-no-repeat bg-center bg-cover group`}
+            >
+              <div className="bg-overlay flex items-end h-full">
+                <div className="lg:w-[90%] xs:w-[80%] mx-auto pb-5">
+                  <h3 className="font-abril font-normal text-white xs:text-[20px] lg:text-[34px] xs:leading[26.98px] lg:leading-[46px] xs:max-w-[152px] lg:max-w-full">
+                    {journal.title}
+                  </h3>
+                  <button
+                    type="button"
+                    className="text-black rounded-full border w-[200px] h-[60px] mt-3 font-lato font-semibold text-[16px] leading-[19px] bg-white hidden lg:group-hover:block"
+                  >
+                    See More
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
-        ))}
-      </div>
+          ))}
+        </div>
+      </Link>
     </div>
   );
 };

@@ -1,3 +1,18 @@
+import {
+  nigel,
+  nigel1,
+  nigel10,
+  nigel11,
+  nigel2,
+  nigel3,
+  nigel4,
+  nigel5,
+  nigel6,
+  nigel7,
+  nigel8,
+  nigel9,
+} from "../assets";
+
 export const locationAreas = [
   {
     title: "Africa",
@@ -138,5 +153,56 @@ export const JournalsInfo = [
   {
     bg: "bg-indigo",
     title: "Indigo",
+  },
+];
+
+export const journalinfoItems = [
+  {
+    title: "nigel",
+    img: nigel1,
+  },
+  {
+    title: "nigel",
+    img: nigel,
+  },
+  {
+    title: "nigel",
+    img: nigel3,
+  },
+  {
+    title: "nigel",
+    img: nigel2,
+  },
+  {
+    title: "nigel",
+    img: nigel4,
+  },
+  {
+    title: "nigel",
+    img: nigel5,
+  },
+  {
+    title: "nigel",
+    img: nigel6,
+  },
+  {
+    title: "nigel",
+    img: nigel7,
+  },
+  {
+    title: "nigel",
+    img: nigel8,
+  },
+  {
+    title: "nigel",
+    img: nigel9,
+  },
+  {
+    title: "nigel",
+    img: nigel10,
+  },
+  {
+    title: "nigel",
+    img: nigel11,
   },
 ];
