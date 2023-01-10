@@ -8,3 +8,6 @@ Use npm run dev
 
 # Run Production
 Use npm run build
+
+# Preview
+See Preview https://sedtribes.netlify.app/
