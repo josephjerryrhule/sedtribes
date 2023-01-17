@@ -20,11 +20,11 @@ const App = () => {
           <Route index element={<Home />} />
           <Route path="ourstory" element={<OurStory />} />
           <Route path="blog" element={<Blog />} />
-          <Route path="singleblog" element={<BlogItem />} />
           <Route path="press" element={<Press />} />
           <Route path="visualjournals" element={<VisualJournals />} />
           <Route path="journal" element={<JournalItem />} />
         </Route>
+        <Route path="singleblog" element={<BlogItem />}></Route>
       </Routes>
       <div className="bg-black">
         <Footer />

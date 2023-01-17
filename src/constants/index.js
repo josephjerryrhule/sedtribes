@@ -1,4 +1,7 @@
 import {
+  backimage,
+  cloakman,
+  flowers,
   nigel,
   nigel1,
   nigel10,
@@ -11,6 +14,8 @@ import {
   nigel7,
   nigel8,
   nigel9,
+  sassylady,
+  whitewoman,
 } from "../assets";
 
 export const locationAreas = [
@@ -263,5 +268,58 @@ export const pressReleases = [
     content:
       "Threaded Tribes is a Ghanaian owned sustainable luxury fashion company that emboldens the carefree & unique nature of distinct members of society",
     button: "Read More",
+  },
+];
+
+export const blogReleases = [
+  {
+    id: "1",
+    date: "August 3, 2021",
+    minread: "3 Min Read",
+    title:
+      "GQ - Threaded Tribes’ SS22 collection fuses culture and craft with dopamine dressing",
+    excerpt:
+      "Threaded Tribes is a Ghanaian owned sustainable luxury fashion company that emboldens the carefree & unique nature of distinct members of society",
+    img: cloakman,
+  },
+  {
+    id: "2",
+    date: "August 3, 2021",
+    minread: "3 Min Read",
+    title:
+      "GQ - Threaded Tribes’ SS22 collection fuses culture and craft with dopamine dressing",
+    excerpt:
+      "Threaded Tribes is a Ghanaian owned sustainable luxury fashion company that emboldens the carefree & unique nature of distinct members of society",
+    img: sassylady,
+  },
+  {
+    id: "3",
+    date: "August 3, 2021",
+    minread: "3 Min Read",
+    title:
+      "GQ - Threaded Tribes’ SS22 collection fuses culture and craft with dopamine dressing",
+    excerpt:
+      "Threaded Tribes is a Ghanaian owned sustainable luxury fashion company that emboldens the carefree & unique nature of distinct members of society",
+    img: whitewoman,
+  },
+  {
+    id: "4",
+    date: "August 3, 2021",
+    minread: "3 Min Read",
+    title:
+      "GQ - Threaded Tribes’ SS22 collection fuses culture and craft with dopamine dressing",
+    excerpt:
+      "Threaded Tribes is a Ghanaian owned sustainable luxury fashion company that emboldens the carefree & unique nature of distinct members of society",
+    img: backimage,
+  },
+  {
+    id: "5",
+    date: "August 3, 2021",
+    minread: "3 Min Read",
+    title:
+      "GQ - Threaded Tribes’ SS22 collection fuses culture and craft with dopamine dressing",
+    excerpt:
+      "Threaded Tribes is a Ghanaian owned sustainable luxury fashion company that emboldens the carefree & unique nature of distinct members of society",
+    img: flowers,
   },
 ];

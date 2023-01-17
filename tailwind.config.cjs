@@ -29,6 +29,7 @@ module.exports = {
         tamed: "url('/src/assets/tamed.png')",
         thegarden: "url('/src/assets/thegarden.png')",
         circles: "url('/src/assets/circles.svg')",
+        blogheader: "url('/src/assets/blogheader.png')",
       },
     },
     screens: {

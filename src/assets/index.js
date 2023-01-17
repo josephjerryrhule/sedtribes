@@ -18,9 +18,19 @@ import nigel11 from "./nigel11.png";
 import circles from "./circles.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import backimage from "./backimage.png";
+import cloakman from "./cloakman.png";
+import flowers from "./flowers.png";
+import sassylady from "./sassylady.png";
+import whitewoman from "./whitewoman.png";
 
 export {
   logo,
+  backimage,
+  cloakman,
+  flowers,
+  sassylady,
+  whitewoman,
   darklogo,
   footerlogo,
   StoryHero,

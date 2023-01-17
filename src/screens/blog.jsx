@@ -1,22 +1,26 @@
 import React from "react";
-import { Locations } from "../components";
+import { BlogCard } from "../components";
+import { blogReleases } from "../constants";
 
 const Blog = () => {
   return (
     <div>
       <div
-        className="bg-black h-[427px] bg-circles bg-no-repeat bg-origin-content
-       bg-center flex items-end justify-center pb-10"
+        className="bg-black h-[427px] bg-blogheader bg-no-repeat bg-cover
+       bg-center flex items-end pb-10"
       >
-        <h1 className="font-abril text-white text-center lg:text-[48px] lg:leading-[56px]">
-          Threaded Tribes
-          <br />
-          Press Mentions
-        </h1>
+        <div className="w-[70%] mx-auto">
+          <h1 className="font-abril text-white lg:text-[48px] lg:leading-[56px]">
+            Threaded Tribes
+            <br />
+            Blog
+          </h1>
+        </div>
       </div>
-      <div className="bg-white h-[1723px]"></div>
-      <div className="bg-black">
-        <Locations />
+      <div className="w-[70%] mx-auto pt-24 pb-24">
+        {blogReleases.map((card) => (
+          <BlogCard key={card.id} {...card} />
+        ))}
       </div>
     </div>
   );
